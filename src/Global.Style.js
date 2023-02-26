@@ -9,10 +9,25 @@ export const MainContainer = styled.main`
 export const MainCont = styled.main`
   /* margin: 0 auto;
   overflow: hidden; */
-  display: flex;
   width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  
 
 `;
+export const MainBody = styled.main`
+  /* margin: 0 auto;
+  overflow: hidden; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+`;
+
+
+
+
 
   // max-width: 1920px;
 

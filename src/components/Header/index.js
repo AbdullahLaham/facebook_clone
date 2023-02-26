@@ -6,27 +6,16 @@ import {MdOndemandVideo, MdNotificationsActive} from 'react-icons/md';
 import {GrGroup} from 'react-icons/gr';
 import {BsMessenger, BsFillGrid3X3GapFill, } from 'react-icons/bs'
 
- 
+
 import { FlexBox,  } from '../../Global.Style';
-import { InputContainer, SearchIcon ,Input, LogoCont, IconCont, RightIcon, IconsCont} from './Header.Style';
+import { InputContainer, SearchIcon ,Input, LogoCont, IconCont, RightIcon, IconsCont, HeaderCont} from './Header.Style';
 
 import facebook from '../../images/facebook.png'
 const Header = () => {
   
 
-
-
-
-
-
-
-
-
-
-
-
   return (
-    <FlexBox>
+    <HeaderCont>
         <IconsCont>
           <LogoCont src={facebook} />
           <InputContainer>
@@ -38,7 +27,7 @@ const Header = () => {
         </IconsCont>
 
         <IconsCont>
-          <IconCont>
+          <IconCont className='selected-icon'>
             <AiFillHome className='icon'  />
           </IconCont>
           <IconCont>
@@ -68,7 +57,7 @@ const Header = () => {
         </IconsCont>
 
         
-    </FlexBox>
+    </HeaderCont>
   )
 }
 

@@ -1,5 +1,12 @@
 import styled from "styled-components"
-
+export const HeaderCont = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: .4rem .8rem;
+  background-color: white;
+  
+`
 export const InputContainer = styled.div`
     position: relative;
 
@@ -51,7 +58,7 @@ export const IconCont = styled.div`
     border-top-left-radius: 1rem;
 
     :hover {
-      background-color: #EFEFEF;
+      background-color: #E7E7E7;
     }
     :active {
       border-bottom: 3px solid blue;
@@ -64,6 +71,7 @@ export const IconsCont = styled.div`
   align-items: center;
   justify-content: space-between;
   height: 3rem;
+
 `
 export const RightIcon = styled.div`
   padding: 1rem;

@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 
 export const SidebarCont = styled.div`
-  min-width: 25%;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -11,15 +10,11 @@ export const SidebarCont = styled.div`
 `;
 
 export const SidebarItem = styled.div`
-  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: space-between;
   gap: 1rem;
-  cursor: pointer;
-  :hover {
-    background-color: #EAEAEA;
-  }
+  
 `;
 export const SidebarImage = styled.div`
   width: 1rem;
@@ -29,17 +24,4 @@ export const SidebarImage = styled.div`
 `;
 export const SidebarTitle = styled.p`
   height: 1rem;
-  font-weight: 500;
-
-`;
-export const UserItem = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: .5rem;
-`;
-export const UserName = styled.p`
-  height: 1rem;
-  font-weight: 500;
-
 `;

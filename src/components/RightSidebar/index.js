@@ -1,12 +1,12 @@
-import React from 'react';
-import profile from '../../images/profile.jpg'
+import React from 'react'
 import {HiUsers, HiOutlineUserGroup} from 'react-icons/hi';
 import {RxVideo} from 'react-icons/rx';
 import {BsStopwatch, BsFillBookmarkFill, BsCalendarEvent} from 'react-icons/bs';
 import {AiOutlineFlag} from 'react-icons/ai';
 import {FaBusinessTime, FaStore} from 'react-icons/fa';
 import {MdKeyboardArrowDown} from 'react-icons/md';
-import {SidebarItem, SidebarImage, SidebarTitle, SidebarCont, UserItem, UserName} from './Sidebar.Style'
+import {SidebarItem, SidebarImage, SidebarTitle, SidebarCont} from '../Sidebar/Sidebar.Style'
+import { FlexBox } from '../../Global.Style';
 const index = () => {
   const sidebarItems = [
     {
@@ -58,13 +58,13 @@ const index = () => {
   ]
   return (
     <SidebarCont>
-        <UserItem>
-            <img className='input-user-image' src={profile} />
-            <UserName>
-              {'Abdulah AL-Lahham'}
-            </UserName>
-          </UserItem>
-        {sidebarItems.map((item) => (
+      <FlexBox>
+        <p>Contacts</p>
+        <FlexBox>
+          
+        </FlexBox>
+      </FlexBox>
+        {/* {sidebarItems.map((item) => (
           <SidebarItem>
             <SidebarImage >
               {item?.icon}
@@ -82,7 +82,7 @@ const index = () => {
             <SidebarTitle>
               See More
             </SidebarTitle>
-          </SidebarItem>
+          </SidebarItem> */}
     </SidebarCont>
   )
 }

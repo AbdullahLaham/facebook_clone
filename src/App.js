@@ -3,7 +3,10 @@ import './App.css';
 import { MainContainer } from './Global.Style';
 import Header from './components/Header';
 import Sidebar from './components/Sidebar';
-import {MainCont} from './Global.Style'
+import {MainCont, MainBody} from './Global.Style'
+import Stories from './components/Stories'
+import RightSidebar from './components/RightSidebar'
+import  AddPost  from './components/AddPost';
 function App() {
   return (
     <div className="App">
@@ -11,8 +14,13 @@ function App() {
         <Header />
         <MainCont>
           <Sidebar />
+          <MainBody>
+            <Stories />
+            <AddPost />
+          </MainBody>
+          <RightSidebar />
         </MainCont>
-       
+
       </MainContainer>
     </div>
   );
