@@ -44,6 +44,10 @@
   font-size: 1.5rem;
   color: rgb(71, 71, 71);
 }
+.header-icon {
+  font-size: 1.2rem;
+  color: rgb(71, 71, 71);
+}
 
 .arrow-icon {
   display: flex;
@@ -81,12 +85,25 @@
   object-fit: cover;
 }
 .input-user-image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.contacts-user-image {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1.5px solid blue;
+}
+.header-user-image {
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
   object-fit: cover;
-}
 
+}
 .camera {
   fill: #FF2F2F;
 }
@@ -95,4 +112,22 @@
 }
 .emogi {
   fill: #D1CB00;
+}
+
+.section-title {
+  text-align: start;
+  font-size: 1rem;
+  color: rgb(165, 165, 165);
+  margin: .5rem;
+}
+
+.contact-icon {
+  padding: .5rem;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+.contact-icon:hover {
+  background-color: #E7E7E7;
+  font-weight: bold;
 }

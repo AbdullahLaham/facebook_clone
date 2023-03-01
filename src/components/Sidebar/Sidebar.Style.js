@@ -13,12 +13,14 @@ export const SidebarCont = styled.div`
 export const SidebarItem = styled.div`
   width: 100%;
   display: flex;
+  padding: 0 .4rem;
   align-items: center;
   justify-content: start;
   gap: 1rem;
   cursor: pointer;
   :hover {
     background-color: #EAEAEA;
+    border-radius: .3rem;
   }
 `;
 export const SidebarImage = styled.div`
@@ -32,6 +34,7 @@ export const SidebarTitle = styled.p`
   font-weight: 500;
 
 `;
+
 export const UserItem = styled.div`
   display: flex;
   align-items: center;

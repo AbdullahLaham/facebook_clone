@@ -15,7 +15,7 @@ export const InputContainer = styled.div`
 export const SearchIcon = styled.div`
     position: absolute;
     left: .7rem;
-    top: .7rem;
+    top: .5rem;
     font-size: 1.1rem;
     color: gray;
     color: black;
@@ -45,7 +45,6 @@ export const LogoCont = styled.img`
 `;
 export const IconCont = styled.div`
     padding: .5rem 1rem;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,13 +73,11 @@ export const IconsCont = styled.div`
 
 `
 export const RightIcon = styled.div`
-  padding: 1rem;
+  padding: .7rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
-  height: 1rem;
-  width: 1rem;
+  
   :hover {
     background-color: #D8D8FF;
   }

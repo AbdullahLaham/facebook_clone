@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { Profiler } from 'react'
 import {FaStore} from 'react-icons/fa'
+import profile from '../../images/profile.jpg'
 import {AiFillHome, AiOutlineSearch} from 'react-icons/ai';
 import {RiGroupLine} from 'react-icons/ri';
 import {MdOndemandVideo, MdNotificationsActive} from 'react-icons/md';
@@ -43,17 +44,15 @@ const Header = () => {
 
         <IconsCont>
           <RightIcon>
-            <BsFillGrid3X3GapFill className='icon'  />
+            <BsFillGrid3X3GapFill className='header-icon'  />
           </RightIcon>
           <RightIcon>
-            <BsMessenger className='icon'  />
+            <BsMessenger className='header-icon'  />
           </RightIcon>
           <RightIcon>
-            <MdNotificationsActive className='icon'  />
+            <MdNotificationsActive className='header-icon'  />
           </RightIcon>
-          <RightIcon>
-            {/* <img src={} /> */}
-          </RightIcon>
+          <img className='header-user-image' src={profile} />
         </IconsCont>
 
         
