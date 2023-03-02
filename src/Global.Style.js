@@ -17,8 +17,7 @@ export const MainCont = styled.main`
 
 `;
 export const MainBody = styled.main`
-  /* margin: 0 auto;
-  overflow: hidden; */
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

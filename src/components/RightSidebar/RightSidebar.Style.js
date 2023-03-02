@@ -36,7 +36,7 @@ export const SponsoredItem = styled.div`
   justify-content: center;
   height: 7rem;
   margin-bottom: 1rem;
-
+  width: 100%;
 `
 export const SponseredImage = styled.img`
   width: 7rem;

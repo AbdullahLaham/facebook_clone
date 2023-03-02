@@ -99,7 +99,7 @@ const index = () => {
       </SponsoredCont>
       <ContactsCont>
         <ContactsHeader>
-          <p>Contacts</p>
+          <p className='section-title'>Contacts</p>
           <IconsCont>
             <BsFillCameraVideoFill className='contact-icon' />
             <BsSearch className='contact-icon' />

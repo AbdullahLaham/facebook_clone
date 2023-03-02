@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 export const SidebarCont = styled.div`
-  min-width: 25%;
+  min-width: 21%;
   display: flex;
   flex-direction: column;
   align-items: start;
